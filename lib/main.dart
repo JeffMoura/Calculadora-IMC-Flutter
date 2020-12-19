@@ -55,7 +55,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Calculadora de IMC"),
         centerTitle: true,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blue[300],
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.refresh),
